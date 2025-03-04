@@ -98,7 +98,8 @@ namespace ConsoleApp1
 
             //string s = "aba";
             //Console.WriteLine(get(s, 10));
-            var r = CutTheSticks([5, 4, 4, 2, 2, 8]);
+            ACMTeam aCMTeam = new();
+            var r = aCMTeam.CalcACMTeam(["10101", "11100", "11010" , "00101"]);
             foreach(var a in r)
             {
                 Console.WriteLine(a);
