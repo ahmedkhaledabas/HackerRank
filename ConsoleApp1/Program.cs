@@ -94,14 +94,21 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            Factorial factorial = new();
-            Console.WriteLine(factorial.GetFactorial(25));
+            AppendAndDeleteChars appendAndDeleteChars = new();
+            Console.WriteLine(appendAndDeleteChars.AppendAndDelete("abcd", "abcdert", 10));
+            //ArrayRotation arrayRotation = new();
+            //var x = arrayRotation.CircularArrayRotation([1, 2, 3], 2, [0, 1, 2]);
+
+            //NonDivisibleSubset nonDivisibleSubset = new();
+            //Console.WriteLine(nonDivisibleSubset.nonDivisibleSubset(4 , [1, 2 ,3, 4, 5, 6, 7, 8, 9, 10]));
+            //Factorial factorial = new();
+
 
             //string s = "aba";
             //Console.WriteLine(get(s, 10));
             //ACMTeam aCMTeam = new();
             //var r = aCMTeam.CalcACMTeam(["10101", "11100", "11010" , "00101"]);
-            //foreach(var a in r)
+            //foreach (var a in x)
             //{
             //    Console.WriteLine(a);
             //}
