@@ -36,7 +36,6 @@ namespace ConsoleApp1
                 sameChars+=(s2[i]) ;
                 numOfDeletedChars++;
                 if (numOfDeletedChars > k) return false;
-                if(i == s2.Length-1 )
             }
 
           

@@ -94,8 +94,11 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            AppendAndDeleteChars appendAndDeleteChars = new();
-            Console.WriteLine(appendAndDeleteChars.AppendAndDelete("abcd", "abcdert", 10));
+            LibraryFine libraryFine = new();
+            Console.WriteLine(libraryFine.FineLibrary(14, 7, 2018, 5, 7, 2018));
+
+            //AppendAndDeleteChars appendAndDeleteChars = new();
+            //Console.WriteLine(appendAndDeleteChars.AppendAndDelete("abcd", "abcdert", 10));
             //ArrayRotation arrayRotation = new();
             //var x = arrayRotation.CircularArrayRotation([1, 2, 3], 2, [0, 1, 2]);
 
